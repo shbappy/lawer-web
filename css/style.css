@@ -1,0 +1,140 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family:
+}
+h1, h2, h3, h4, h5, h6{
+    
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    padding: 30px 0px;
+}
+.header .navbar-brand{
+    margin-left: 90px;
+}
+.header .navbar-expand-lg .navbar-collapse {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;
+    background: #fff;
+    text-transform: uppercase;
+    margin-right: 48px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+    color: #293779;
+    margin-right: 10px;
+    transition: 1s;
+    letter-spacing: 1px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #f0532a;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+   color: rgb(239, 239, 92); 
+}
+.slider{
+    width: 100%;
+    padding: 30px 0px;
+    background: url("../images/banner-bg.png") center top no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.slider .inner-slider h1{
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 87px 0px 0px 0px;
+}
+.slider .arrow{
+    width: 100%;
+}
+.slider .arrow .fa{
+    font-size: 30px;
+    color: #fff;
+    padding: 123px 49.5px 0px 0px;
+}
+.about-us{
+    width: 100%;
+    padding: 80PX 0px 95px 0px;
+}
+.about-us .title{
+    width: 100%;
+    padding: 38px 147px 0px;
+}
+.about-us .title.h2{
+    font-size: 27px;
+    line-height: 37px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #28377e;
+    margin: 0px;
+}
+.about-us p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #a9b5f0;
+    padding: 10px 122px 4px 145px;
+}
+.Feature{
+    width: 100%;
+    padding:53px 0px;
+    background: url("../images/card-bg.png") center top no-repeat;
+    background-size: cover;  
+}
+.Feature .title-card{
+    text-align: center;
+    padding: 10px 0px 30px 0px;
+}
+.Feature .title-card h2{
+    font-size: 27px;
+    line-height: 37px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #28377e;
+    margin: 0px;
+}
+.Feature .inner-feature{
+    padding: 60px 24px 59px 51px;
+    width: 92%;
+}
+.Feature .card{
+    width: 100%;
+    border-radius: 0px;
+}
+.Feature .card .card-heading{
+    width: 100%;
+    text-align: center;
+    transform: translate(0%,50%);
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+.Feature .card .long-arrow{
+    width: 100%;
+}
+.Feature .card .long-arrow img{
+    position: absolute;
+    bottom: 15%;
+    left: 40%;
+    transform: translate(50%, 50%);
+}
+
